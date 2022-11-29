@@ -172,25 +172,25 @@ nav ul li a {
 /* end header styles */
 
 /* start top bar styles */
-.top-bar {
+.all-bar {
     padding: 20px 10px 20px 10px;
     color: var(--text-color);
     width: 100%;
 }
 
-.top-bar .container {
+.all-bar .container {
     display: flex;
     gap: 150px;
 }
 
-.top-bar ul {
+.all-bar ul {
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
-.top-bar ul li,
-.top-bar ul div {
+.all-bar ul li,
+.all-bar ul div {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -198,18 +198,18 @@ nav ul li a {
     position: relative;
 }
 
-.top-bar ul li img {
+.all-bar ul li img {
     width: 12px;
     fill: var(--text-color);
 }
 
-.top-bar ul span {
+.all-bar ul span {
     display: inline-block;
     width: 16px;
     height: 16px;
 }
 
-.top-bar .container ul li:first-child::after {
+.all-bar .container ul li:first-child::after {
     content: '';
     background-color: #1993b8;
     width: 35px;
@@ -219,17 +219,17 @@ nav ul li a {
     position: absolute;
 }
 
-.top-bar .container ul li:first-child {
+.all-bar .container ul li:first-child {
     color: #1993b8;
 }
 
-.top-bar .tools {
+.all-bar .tools {
     display: block;
     cursor: pointer;
     padding-right: 20px;
 }
 
-.top-bar .tools:hover {
+.all-bar .tools:hover {
     color: white;
 }
 
@@ -239,21 +239,22 @@ nav ul li a {
 }
 
 @media (max-width: 720px) {
-    .top-bar .container {
+    .all-bar .container {
         gap: 50px;
     }
 
-    .top-bar .container ul li span {
+    .all-bar .container ul li span {
         display: none;
     }
 }
 
-/* end top bar styles */
+/* end all bar styles */
+
 .results {
     color: var(--text-color);
     display: block;
-    padding: 20px 0;
-    margin-bottom: 20px;
+    padding: 2px 0 18px 0 ;
+    margin-top: 0;
 }
 
 main .container {
